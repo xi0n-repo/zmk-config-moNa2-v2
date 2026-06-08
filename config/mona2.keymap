@@ -101,7 +101,7 @@
 &kp EXCLAMATION   &kp AT  &kp HASH   &kp DOLLAR  &kp PERCENT                    &kp CARET      &kp AMPERSAND     &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp LEFT_CONTROL  &none   &kp MINUS  &kp EQUAL   &kp GRAVE              &trans  &kp BACKSLASH  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SEMICOLON         &mt RIGHT_CONTROL SINGLE_QUOTE
 &kp LEFT_SHIFT    &none   &none      &none       &none        &trans    &trans  &none          &none             &kp COMMA          &kp PERIOD            &mt RIGHT_SHIFT SLASH
-&trans            &trans  &trans     &trans      &kp SPACE    &trans    &trans  &trans                           &trans             &trans                &trans
+&trans            &trans  &trans     &trans      &kp SPACE    &trans    &trans  &trans                                                                    &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
