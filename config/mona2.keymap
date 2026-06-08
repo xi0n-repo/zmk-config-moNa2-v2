@@ -153,10 +153,10 @@
 
         layer_7 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
+&kp LC(LG(D))     &kp LC(LG(LEFT_ARROW))  &kp LG(UP_ARROW)    &kp LC(LG(RIGHT_ARROW))  &trans                                &trans         &trans          &kp UP_ARROW    &trans           &trans
+&kp LEFT_CONTROL  &kp LG(LEFT_ARROW)      &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)      &trans                    &trans      &kp PAGE_UP    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&kp LEFT_SHIFT    &trans                  &trans              &trans                   &kp LC(LG(F4))  &trans    &trans      &kp PAGE_DOWN  &kp HOME        &kp END         &trans           &trans
+&trans            &trans                  &trans              &trans                   &trans          &trans    &kp DELETE  &trans                                                          &trans
             >;
         };
     };
