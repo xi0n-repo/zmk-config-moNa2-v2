@@ -54,37 +54,37 @@ layers:
   - '8'
   - '9'
   - '0'
+  - '&baseAndS LEFT_CONTROL KP_PLUS'
+  - KP MINUS
+  - KP ASTERISK
+  - KP SLASH
+  - '='
+  - {t: ▽, type: trans}
+  - ''
+  - '4'
+  - '5'
+  - '6'
+  - RIGHT CONTROL
+  - LEFT SHIFT
+  - ''
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - (
-  - )
-  - {t: ▽, type: trans}
-  - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '|'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - '&baseAndS RIGHT_SHIFT PERIOD'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BACKSPACE
+  - {t: ENTER, type: held}
   - {t: ▽, type: trans}
   '2':
   - '!'
