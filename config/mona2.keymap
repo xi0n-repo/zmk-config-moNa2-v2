@@ -87,10 +87,10 @@
 
         layer_1 {
             bindings = <
-&kp NUMBER_1                    &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4  &kp NUMBER_5                           &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&baseAndS LEFT_CONTROL KP_PLUS  &kp KP_MINUS  &kp KP_ASTERISK  &kp KP_SLASH  &kp EQUAL               &trans         &none         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RIGHT_CONTROL
-&kp LEFT_SHIFT                  &none         &none            &none         &none         &trans    &trans         &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &baseAndS RIGHT_SHIFT PERIOD
-&trans                          &trans        &trans           &trans        &trans        &trans    &kp BACKSPACE  &kp ENTER                                               &trans
+&kp NUMBER_1              &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4  &kp NUMBER_5                           &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&mt LEFT_CONTROL KP_PLUS  &kp KP_MINUS  &kp KP_ASTERISK  &kp KP_SLASH  &kp EQUAL               &trans         &none         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RIGHT_CONTROL
+&kp LEFT_SHIFT            &none         &none            &none         &none         &trans    &trans         &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &mt RIGHT_SHIFT PERIOD
+&trans                    &trans        &trans           &trans        &trans        &trans    &kp BACKSPACE  &kp ENTER                                               &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
