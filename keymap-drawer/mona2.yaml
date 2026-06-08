@@ -54,7 +54,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - '&baseAndS LEFT_CONTROL KP_PLUS'
+  - {t: KP PLUS, h: LEFT CONTROL}
   - KP MINUS
   - KP ASTERISK
   - KP SLASH
@@ -76,7 +76,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - '&baseAndS RIGHT_SHIFT PERIOD'
+  - {t: ., h: RIGHT SHIFT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
