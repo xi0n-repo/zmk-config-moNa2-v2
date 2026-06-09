@@ -38,98 +38,55 @@ layers:
   - LEFT WIN
   - ESCAPE
   - LEFT ALT
-  - {t: SPACE, h: '2'}
-  - {t: '&to_layer_0 TAB', h: '3'}
-  - {t: '&to_layer_0 BACKSPACE', h: '3'}
-  - {t: ENTER, h: '1'}
+  - {t: SPACE, h: MARK}
+  - {t: '&to_layer_0 TAB', h: CURSOR}
+  - {t: '&to_layer_0 BACKSPACE', h: CURSOR}
+  - {t: ENTER, h: NUMBER}
   - RIGHT ALT
-  '1':
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - {t: KP PLUS, h: LEFT CONTROL}
-  - KP MINUS
-  - KP ASTERISK
-  - KP SLASH
-  - '='
+  '5':
+  - '&to_layer_0 Q'
+  - '&to_layer_0 W'
+  - '&to_layer_0 E'
+  - '&to_layer_0 R'
+  - '&to_layer_0 T'
+  - '&to_layer_0 Y'
+  - '&to_layer_0 U'
+  - '&to_layer_0 I'
+  - '&to_layer_0 O'
+  - {t: P, h: '6'}
+  - {t: A, h: LEFT CONTROL}
+  - '&to_layer_0 S'
+  - '&mkp MB2'
+  - '&mkp MB1'
+  - '&to_layer_0 G'
   - {t: ▽, type: trans}
-  - RIGHT ALT
-  - '4'
-  - '5'
-  - '6'
-  - RIGHT CONTROL
-  - LEFT SHIFT
-  - ''
-  - ''
-  - ''
-  - LEFT ALT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '0'
-  - '1'
-  - '2'
-  - '3'
-  - {t: ., h: RIGHT SHIFT}
+  - '&to_layer_0 H'
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&to_layer_0 L'
+  - {t: '-', h: RIGHT CONTROL}
+  - {t: Z, h: LEFT SHIFT}
+  - {t: X, h: CURSOR}
+  - '&to_layer_0 C'
+  - '&to_layer_0 V'
+  - '&to_layer_0 B'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BACKSPACE
-  - {t: ENTER, type: held}
-  - {t: ▽, type: trans}
-  '2':
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - LEFT CONTROL
-  - ''
-  - '-'
-  - '='
-  - '`'
-  - {t: ▽, type: trans}
-  - \
-  - '['
-  - ']'
-  - ;
-  - {t: '''', h: RIGHT CONTROL}
-  - LEFT SHIFT
-  - ''
-  - ''
-  - ''
-  - ''
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ','
-  - .
+  - '&to_layer_0 N'
+  - '&to_layer_0 M'
+  - '&to_layer_0 COMMA'
+  - {t: ., h: CURSOR}
   - {t: /, h: RIGHT SHIFT}
+  - '&to_layer_0 LEFT_GUI'
+  - {t: ▽, type: trans}
+  - {t: ESCAPE, h: LEFT ALT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: SPACE, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  '3':
+  CURSOR:
   - ESCAPE
   - ''
   - ''
@@ -172,7 +129,7 @@ layers:
   - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '4':
+  FUNCTION:
   - ESCAPE
   - F2
   - F3
@@ -215,50 +172,93 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '5':
-  - '&to_layer_0 Q'
-  - '&to_layer_0 W'
-  - '&to_layer_0 E'
-  - '&to_layer_0 R'
-  - '&to_layer_0 T'
-  - '&to_layer_0 Y'
-  - '&to_layer_0 U'
-  - '&to_layer_0 I'
-  - '&to_layer_0 O'
-  - {t: P, h: '7'}
-  - {t: A, h: LEFT CONTROL}
-  - '&to_layer_0 S'
-  - '&mkp MB2'
-  - '&mkp MB1'
-  - '&to_layer_0 G'
+  NUMBER:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: KP PLUS, h: LEFT CONTROL}
+  - KP MINUS
+  - KP ASTERISK
+  - KP SLASH
+  - '='
   - {t: ▽, type: trans}
-  - '&to_layer_0 H'
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&to_layer_0 L'
-  - {t: '-', h: RIGHT CONTROL}
-  - {t: Z, h: LEFT SHIFT}
-  - {t: X, h: '3'}
-  - '&to_layer_0 C'
-  - '&to_layer_0 V'
-  - '&to_layer_0 B'
+  - RIGHT ALT
+  - '4'
+  - '5'
+  - '6'
+  - RIGHT CONTROL
+  - LEFT SHIFT
+  - ''
+  - ''
+  - ''
+  - LEFT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&to_layer_0 N'
-  - '&to_layer_0 M'
-  - '&to_layer_0 COMMA'
-  - {t: ., h: '3'}
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - {t: ., h: RIGHT SHIFT}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BACKSPACE
+  - {t: ENTER, type: held}
+  - {t: ▽, type: trans}
+  MARK:
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - LEFT CONTROL
+  - ''
+  - '-'
+  - '='
+  - '`'
+  - {t: ▽, type: trans}
+  - \
+  - '['
+  - ']'
+  - ;
+  - {t: '''', h: RIGHT CONTROL}
+  - LEFT SHIFT
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ','
+  - .
   - {t: /, h: RIGHT SHIFT}
-  - '&to_layer_0 LEFT_GUI'
-  - {t: ▽, type: trans}
-  - {t: ESCAPE, h: LEFT ALT}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: SPACE, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '6':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  WIRELESS:
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -301,7 +301,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '7':
+  '6':
   - Ctl+Gui+D
   - Ctl+Gui+LEFT ARROW
   - Gui+UP ARROW
