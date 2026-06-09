@@ -60,7 +60,7 @@ layers:
   - KP SLASH
   - '='
   - {t: ▽, type: trans}
-  - ''
+  - RIGHT ALT
   - '4'
   - '5'
   - '6'
@@ -69,7 +69,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - LEFT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
