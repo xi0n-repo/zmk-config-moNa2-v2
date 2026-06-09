@@ -36,8 +36,8 @@ layers:
   - {t: /, h: RIGHT SHIFT}
   - LEFT WIN
   - LEFT WIN
-  - LEFT ALT
   - ESCAPE
+  - LEFT ALT
   - {t: SPACE, h: '2'}
   - {t: '&to_layer_0 TAB', h: '3'}
   - {t: '&to_layer_0 BACKSPACE', h: '3'}
