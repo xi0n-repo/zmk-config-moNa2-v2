@@ -10,7 +10,7 @@ layers:
   - U
   - I
   - O
-  - P
+  - {t: P, h: '6'}
   - {t: A, h: LEFT CONTROL}
   - S
   - D
@@ -23,7 +23,7 @@ layers:
   - L
   - {t: '-', h: RIGHT CONTROL}
   - {t: Z, h: LEFT SHIFT}
-  - X
+  - {t: X, h: FUNCTION}
   - C
   - V
   - B
@@ -32,16 +32,16 @@ layers:
   - N
   - M
   - ','
-  - .
+  - {t: ., h: FUNCTION}
   - {t: /, h: RIGHT SHIFT}
   - LEFT WIN
-  - LEFT WIN
+  - LEFT CONTROL
   - ESCAPE
   - LEFT ALT
-  - {t: SPACE, h: MARK}
+  - {t: SPACE, h: NUMBER}
   - {t: '&to_layer_0 TAB', h: CURSOR}
-  - {t: '&to_layer_0 BACKSPACE', h: CURSOR}
-  - {t: ENTER, h: NUMBER}
+  - {t: '&to_layer_0 BACKSPACE', h: MARK}
+  - {t: ENTER, h: FUNCTION}
   - RIGHT ALT
   '5':
   - '&to_layer_0 Q'
@@ -66,7 +66,7 @@ layers:
   - '&to_layer_0 L'
   - {t: '-', h: RIGHT CONTROL}
   - {t: Z, h: LEFT SHIFT}
-  - {t: X, h: CURSOR}
+  - {t: X, h: FUNCTION}
   - '&to_layer_0 C'
   - '&to_layer_0 V'
   - '&to_layer_0 B'
@@ -75,12 +75,12 @@ layers:
   - '&to_layer_0 N'
   - '&to_layer_0 M'
   - '&to_layer_0 COMMA'
-  - {t: ., h: CURSOR}
+  - {t: ., h: FUNCTION}
   - {t: /, h: RIGHT SHIFT}
   - '&to_layer_0 LEFT_GUI'
   - {t: ▽, type: trans}
-  - {t: ESCAPE, h: LEFT ALT}
-  - {t: ▽, type: trans}
+  - ESCAPE
+  - LEFT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -152,7 +152,7 @@ layers:
   - ''
   - RIGHT CONTROL
   - LEFT SHIFT
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -210,10 +210,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - BACKSPACE
-  - {t: ENTER, type: held}
+  - ENTER
   - {t: ▽, type: trans}
   MARK:
   - '!'
@@ -253,9 +253,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: SPACE, type: held}
+  - SPACE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   WIRELESS:
