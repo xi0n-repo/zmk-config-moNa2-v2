@@ -64,10 +64,10 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp W         &kp E       &kp R         &kp T                                                            &kp Y        &kp U  &kp I      &kp O    &kp P
-&mt LEFT_CONTROL A  &kp S         &kp D       &kp F         &kp G                                &kp F13                     &kp H        &kp J  &kp K      &kp L    &mt RIGHT_CONTROL MINUS
-&mt LEFT_SHIFT Z    &kp X         &kp C       &kp V         &kp B        &kp LANGUAGE_2          &kp LANGUAGE_1              &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&kp LEFT_WIN        &kp LEFT_WIN  &kp ESCAPE  &kp LEFT_ALT  &lt 5 SPACE  &lt_to_layer_0 2 TAB    &lt_to_layer_0 2 BACKSPACE  &lt 4 ENTER                             &kp RIGHT_ALT
+&kp Q               &kp W             &kp E       &kp R         &kp T                                                            &kp Y        &kp U  &kp I      &kp O         &lt 7 P
+&mt LEFT_CONTROL A  &kp S             &kp D       &kp F         &kp G                                &kp F13                     &kp H        &kp J  &kp K      &kp L         &mt RIGHT_CONTROL MINUS
+&mt LEFT_SHIFT Z    &lt 3 X           &kp C       &kp V         &kp B        &kp LANGUAGE_2          &kp LANGUAGE_1              &kp N        &kp M  &kp COMMA  &lt 3 PERIOD  &mt RIGHT_SHIFT SLASH
+&kp LEFT_WIN        &kp LEFT_CONTROL  &kp ESCAPE  &kp LEFT_ALT  &lt 4 SPACE  &lt_to_layer_0 2 TAB    &lt_to_layer_0 5 BACKSPACE  &lt 3 ENTER                                  &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -75,10 +75,10 @@
 
         MOUSE {
             bindings = <
-&to_layer_0 Q         &to_layer_0 W  &to_layer_0 E        &to_layer_0 R  &to_layer_0 T                    &to_layer_0 Y  &to_layer_0 U  &to_layer_0 I      &to_layer_0 O  &lt 7 P
-&mt LEFT_CONTROL A    &to_layer_0 S  &mkp MB2             &mkp MB1       &to_layer_0 G            &trans  &to_layer_0 H  &mkp MB1       &mkp MB2           &to_layer_0 L  &mt RIGHT_CONTROL MINUS
-&mt LEFT_SHIFT Z      &lt 2 X        &to_layer_0 C        &to_layer_0 V  &to_layer_0 B  &trans    &trans  &to_layer_0 N  &to_layer_0 M  &to_layer_0 COMMA  &lt 2 PERIOD   &mt RIGHT_SHIFT SLASH
-&to_layer_0 LEFT_GUI  &trans         &mt LEFT_ALT ESCAPE  &trans         &trans         &trans    &trans  &trans                                                          &trans
+&to_layer_0 Q         &to_layer_0 W  &to_layer_0 E  &to_layer_0 R  &to_layer_0 T                    &to_layer_0 Y  &to_layer_0 U  &to_layer_0 I      &to_layer_0 O  &lt 7 P
+&mt LEFT_CONTROL A    &to_layer_0 S  &mkp MB2       &mkp MB1       &to_layer_0 G            &trans  &to_layer_0 H  &mkp MB1       &mkp MB2           &to_layer_0 L  &mt RIGHT_CONTROL MINUS
+&mt LEFT_SHIFT Z      &lt 3 X        &to_layer_0 C  &to_layer_0 V  &to_layer_0 B  &trans    &trans  &to_layer_0 N  &to_layer_0 M  &to_layer_0 COMMA  &lt 3 PERIOD   &mt RIGHT_SHIFT SLASH
+&to_layer_0 LEFT_GUI  &trans         &kp ESCAPE     &kp LEFT_ALT   &trans         &trans    &trans  &trans                                                          &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
