@@ -87,10 +87,10 @@
 
         layer_1 {
             bindings = <
-&kp NUMBER_1              &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4  &kp NUMBER_5                           &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&mt LEFT_CONTROL KP_PLUS  &kp KP_MINUS  &kp KP_ASTERISK  &kp KP_SLASH  &kp EQUAL               &trans         &none         &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RIGHT_CONTROL
-&kp LEFT_SHIFT            &none         &none            &none         &none         &trans    &trans         &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &mt RIGHT_SHIFT PERIOD
-&trans                    &trans        &trans           &trans        &trans        &trans    &kp BACKSPACE  &kp ENTER                                               &trans
+&kp NUMBER_1              &kp NUMBER_2  &kp NUMBER_3     &kp NUMBER_4  &kp NUMBER_5                           &kp NUMBER_6   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&mt LEFT_CONTROL KP_PLUS  &kp KP_MINUS  &kp KP_ASTERISK  &kp KP_SLASH  &kp EQUAL               &trans         &kp RIGHT_ALT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp RIGHT_CONTROL
+&kp LEFT_SHIFT            &none         &none            &none         &kp LEFT_ALT  &trans    &trans         &kp NUMBER_0   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &mt RIGHT_SHIFT PERIOD
+&trans                    &trans        &trans           &trans        &trans        &trans    &kp BACKSPACE  &kp ENTER                                                &trans
             >;
 
             sensor-bindings = <&scroll_right_left>;
@@ -131,10 +131,10 @@
 
         MOUSE {
             bindings = <
-&to_layer_0 Q             &to_layer_0 W  &to_layer_0 E              &to_layer_0 R  &to_layer_0 T                    &to_layer_0 Y  &to_layer_0 U  &to_layer_0 I      &to_layer_0 O  &lt 7 P
-&mt LEFT_CONTROL A        &to_layer_0 S  &mkp MB2                   &mkp MB1       &to_layer_0 G            &trans  &to_layer_0 H  &mkp MB1       &mkp MB2           &to_layer_0 L  &mt RIGHT_CONTROL MINUS
-&mt LEFT_SHIFT Z          &lt 3 X        &to_layer_0 C              &to_layer_0 V  &to_layer_0 B  &trans    &trans  &to_layer_0 N  &to_layer_0 M  &to_layer_0 COMMA  &lt 3 PERIOD   &mt RIGHT_SHIFT SLASH
-&to_layer_0 LEFT_GUI      &trans         &mt LEFT_ALT ESCAPE        &trans         &trans         &trans    &trans  &trans                                                          &trans
+&to_layer_0 Q         &to_layer_0 W  &to_layer_0 E        &to_layer_0 R  &to_layer_0 T                    &to_layer_0 Y  &to_layer_0 U  &to_layer_0 I      &to_layer_0 O  &lt 7 P
+&mt LEFT_CONTROL A    &to_layer_0 S  &mkp MB2             &mkp MB1       &to_layer_0 G            &trans  &to_layer_0 H  &mkp MB1       &mkp MB2           &to_layer_0 L  &mt RIGHT_CONTROL MINUS
+&mt LEFT_SHIFT Z      &lt 3 X        &to_layer_0 C        &to_layer_0 V  &to_layer_0 B  &trans    &trans  &to_layer_0 N  &to_layer_0 M  &to_layer_0 COMMA  &lt 3 PERIOD   &mt RIGHT_SHIFT SLASH
+&to_layer_0 LEFT_GUI  &trans         &mt LEFT_ALT ESCAPE  &trans         &trans         &trans    &trans  &trans                                                          &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
