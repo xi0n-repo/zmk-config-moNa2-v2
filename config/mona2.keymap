@@ -21,7 +21,19 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        lang1jj {
+            bindings = <&kp LANG1>;
+            key-positions = <9 8>;
+        };
+
+        lang2 {
+            bindings = <&kp LANG2>;
+            key-positions = <0 1>;
+        };
+    };
 
     macros {
         to_layer_0: to_layer_0 {
@@ -97,10 +109,10 @@
 
         FUNCTION {
             bindings = <
-&kp ESCAPE        &kp F2  &kp F3     &kp F4        &kp F5                    &kp F6   &kp F7     &kp F8     &kp F9  &kp F10
-&kp LEFT_CONTROL  &none   &mkp RCLK  &mkp LCLK     &none             &trans  &kp F12  &mkp LCLK  &mkp RCLK  &none   &kp RIGHT_CONTROL
-&kp LEFT_SHIFT    &none   &none      &none         &none   &trans    &trans  &none    &none      &none      &none   &kp RIGHT_SHIFT
-&trans            &trans  &trans     &kp LEFT_ALT  &trans  &trans    &trans  &trans                                 &trans
+&kp ESCAPE        &kp F2  &kp F3     &kp F4        &kp F5                           &kp F6   &kp F7     &kp F8     &kp F9  &kp F10
+&kp LEFT_CONTROL  &none   &mkp RCLK  &mkp LCLK     &none             &trans         &kp F12  &mkp LCLK  &mkp RCLK  &none   &kp RIGHT_CONTROL
+&kp LEFT_SHIFT    &none   &none      &none         &none   &trans    &trans         &none    &none      &none      &none   &kp RIGHT_SHIFT
+&trans            &trans  &trans     &kp LEFT_ALT  &trans  &trans    &kp BACKSPACE  &trans                                 &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
