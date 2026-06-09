@@ -169,7 +169,7 @@ layers:
   - LEFT ALT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BACKSPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUMBER:
@@ -344,3 +344,8 @@ layers:
   - DELETE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+combos:
+- p: [9, 8]
+  k: LANG1
+- p: [0, 1]
+  k: LANG2
