@@ -77,7 +77,7 @@ layers:
   - '&to_layer_0 COMMA'
   - {t: ., h: FUNCTION}
   - {t: /, h: RIGHT SHIFT}
-  - '&to_layer_0 LEFT_GUI'
+  - LEFT GUI
   - {t: ▽, type: trans}
   - ESCAPE
   - LEFT ALT
