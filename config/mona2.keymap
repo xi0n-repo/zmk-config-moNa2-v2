@@ -24,7 +24,7 @@
     combos {
         compatible = "zmk,combos";
 
-        lang1jj {
+        lang1 {
             bindings = <&kp LANG1>;
             key-positions = <8 7>;
         };
