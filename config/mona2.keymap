@@ -83,7 +83,7 @@
             bindings = <
 &kp Q               &kp W             &kp E       &kp R         &kp T                                                            &kp Y        &kp U  &kp I      &kp O         &lt 7 P
 &mt LEFT_CONTROL A  &kp S             &kp D       &kp F         &kp G                                &kp F13                     &kp H        &kp J  &kp K      &kp L         &mt RIGHT_CONTROL MINUS
-&mt LEFT_SHIFT Z    &lt 3 X           &kp C       &kp V         &kp B        &kp LANGUAGE_2          &kp LANGUAGE_1              &kp N        &kp M  &kp COMMA  &lt 3 PERIOD  &mt RIGHT_SHIFT SLASH
+&mt LEFT_SHIFT Z    &lt 3 X           &kp C       &kp V         &kp B        &none                   &none                       &kp N        &kp M  &kp COMMA  &lt 3 PERIOD  &mt RIGHT_SHIFT SLASH
 &kp LEFT_WIN        &kp LEFT_CONTROL  &kp ESCAPE  &kp LEFT_ALT  &lt 4 SPACE  &lt_to_layer_0 2 TAB    &lt_to_layer_0 5 BACKSPACE  &lt 3 ENTER                                  &kp RIGHT_ALT
             >;
 
@@ -103,10 +103,10 @@
 
         CURSOR {
             bindings = <
-&kp ESCAPE        &none   &none     &none     &none                      &none          &none           &kp UP_ARROW    &none            &none
-&kp LEFT_CONTROL  &none   &mkp MB2  &mkp MB1  &none             &trans   &kp PAGE_UP    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none
-&kp LEFT_SHIFT    &none   &none     &none     &none   &trans    &trans   &kp PAGE_DOWN  &kp HOME        &kp END         &none            &none
-&trans            &trans  &trans    &trans    &trans  &trans    &kp DEL  &trans                                                          &trans
+&kp ESCAPE        &none   &none     &none     &none                            &none          &none           &kp UP_ARROW    &none            &none
+&kp LEFT_CONTROL  &none   &mkp MB2  &mkp MB1  &kp LEFT_ALT            &trans   &kp PAGE_UP    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none
+&kp LEFT_SHIFT    &none   &none     &none     &none         &trans    &trans   &kp PAGE_DOWN  &kp HOME        &kp END         &none            &none
+&trans            &trans  &trans    &trans    &trans        &trans    &kp DEL  &trans                                                          &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
