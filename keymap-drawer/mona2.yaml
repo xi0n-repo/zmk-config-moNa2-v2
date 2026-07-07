@@ -27,8 +27,8 @@ layers:
   - C
   - V
   - B
-  - LANGUAGE 2
-  - LANGUAGE 1
+  - ''
+  - ''
   - N
   - M
   - ','
@@ -101,7 +101,7 @@ layers:
   - ''
   - '&mkp MB2'
   - '&mkp MB1'
-  - ''
+  - LEFT ALT
   - {t: ▽, type: trans}
   - PAGE UP
   - LEFT ARROW
